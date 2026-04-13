@@ -14,11 +14,15 @@
     }
   },
 
-  "name": "Flutter",
+  "name": "Flutter Dev Container",
 
   // Privileged for debugging, hardware access, etc.
   "runArgs": [
     "--mount=type=bind,src=/dev/bus/usb,dst=/dev/bus/usb,rw", // Mount USB devices (for use with adb)
     "--privileged"
-  ]
+  ],
+
+  "workspaceFolder": "/workspaces",
+
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces,type=bind"
 }
