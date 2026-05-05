@@ -12,7 +12,8 @@
 ## Install
 
 ```bash
-git clone --filter=tree:0 --depth=1 --no-tags https://github.com/XIAN-SHENG-576692/Flutter-Dev-Container.git
+git clone --filter=tree:0 --depth=1 --no-tags \
+https://github.com/XIAN-SHENG-576692/Flutter-Dev-Container.git
 ```
 
 ## File Structure
