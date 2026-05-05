@@ -1,4 +1,19 @@
 #!/bin/bash
+# ============================================================
+# Script Name: preinstall_android_sdk.sh
+# ------------------------------------------------------------
+# Purpose:
+#   - To prevent **out-of-memory** errors.
+#   - To ensure `dart-code.flutter` can detect Android devices over USB.
+#
+# Description:
+#   Installs required Android SDK components in advance.
+#   - build-tools
+#   - cmake
+#   - ndk
+#   - platform-tools
+#   - platforms
+# ============================================================
 
 # --- 1. Project Selection ---
 echo "Listing available Flutter projects..."
